@@ -12,7 +12,7 @@ class App extends Component {
   // Map over this.state.employee and render a FriendCard component for each friend object
   render() {
     return (
-      <table className="table table-striped .thead-light" >
+      <table className="table table-striped table-dark" >
       <TableHeader employee = {employee[0]} />
       <tbody>
         {this.state.employee.map(employee => (
