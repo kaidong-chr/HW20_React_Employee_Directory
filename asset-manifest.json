@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HW20_React_Employee_Directory/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/HW20_React_Employee_Directory/static/js/main.3e33d81b.chunk.js",
+    "main.js.map": "/HW20_React_Employee_Directory/static/js/main.3e33d81b.chunk.js.map",
+    "runtime-main.js": "/HW20_React_Employee_Directory/static/js/runtime-main.6c412ebd.js",
+    "runtime-main.js.map": "/HW20_React_Employee_Directory/static/js/runtime-main.6c412ebd.js.map",
+    "static/js/2.b6b89e9b.chunk.js": "/HW20_React_Employee_Directory/static/js/2.b6b89e9b.chunk.js",
+    "static/js/2.b6b89e9b.chunk.js.map": "/HW20_React_Employee_Directory/static/js/2.b6b89e9b.chunk.js.map",
+    "static/js/3.185b1061.chunk.js": "/HW20_React_Employee_Directory/static/js/3.185b1061.chunk.js",
+    "static/js/3.185b1061.chunk.js.map": "/HW20_React_Employee_Directory/static/js/3.185b1061.chunk.js.map",
+    "index.html": "/HW20_React_Employee_Directory/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/HW20_React_Employee_Directory/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.b6b89e9b.chunk.js.LICENSE.txt": "/HW20_React_Employee_Directory/static/js/2.b6b89e9b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/HW20_React_Employee_Directory/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c412ebd.js",
+    "static/js/2.b6b89e9b.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.3e33d81b.chunk.js"
+  ]
+}
