@@ -4,15 +4,11 @@ function TableHeader(props) {
   let employee = props.employee;
 
   return (
-    <table class="table table-striped thead-light">
-      <thread>
-        <tr>
+        <tr className="thead-dark">
           {Object.keys(employee).map((key) => (
             <th>{key}</th>
           ))}
         </tr>
-      </thread>
-    </table>
   );
 }
 
