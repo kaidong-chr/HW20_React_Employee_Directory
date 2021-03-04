@@ -2,7 +2,7 @@ import React from "react";
 
 const Search = (props) => {
   return (
-    <form>
+    <form className="d-flex">
       <div>
         <input
           placeholder="Search For Employee"

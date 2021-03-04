@@ -3,6 +3,7 @@ import EmployeeTable from "./components/EmployeeTable";
 import TableHeader from "./components/TableHeader";
 import employee from "./employee.json";
 import Search from "./components/SearchForm"
+import SortByNameBtn from "./components/SortByNameBtn"
 
 class App extends Component {
   // Setting this.state.employee to the employee json array
@@ -22,6 +23,7 @@ class App extends Component {
       <div>
       <h2 className="display-3">Employee Directory</h2>
       <Search />
+      <SortByNameBtn sortByName={this.sortByName}/>
       <table className="table table-striped table-bordered">
         <TableHeader employee={employee[0]} />
         <tbody>
