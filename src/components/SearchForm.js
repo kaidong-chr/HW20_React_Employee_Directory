@@ -5,7 +5,7 @@ const Search = (props) => {
     <form className="d-flex">
       <div>
         <input
-          placeholder="Search For Employee"
+          placeholder="Enter An Employee Name"
           name="search"
           type="text"
           value={props.term}
