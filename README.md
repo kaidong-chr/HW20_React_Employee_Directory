@@ -44,8 +44,8 @@ React Employee Directory app, built using React capitalizing on components and p
 
 ### Usage
 💻<br />
-In VS Code terminal, install the npm dependencies, then run <i>node server.js</i> in the terminal to start the app and create the budget database.<br />
-In a browser, navigate to http://localhost:8080/ to view the site.<br />
+In VS Code terminal, install the npm dependencies, then run <i>npm start</i> in the terminal to start the app.<br />
+A browser will automatically open to view the site.<br />
 You can add new budget items online, or bring up the dev console take the app offline in the Network tab, then add new budget items.<br />
 Once you bring the app back online all your offline entries will persist, you can also check CompassDB to see these entries registered.<br />
 
