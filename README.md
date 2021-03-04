@@ -38,9 +38,8 @@ React Employee Directory app, built using React capitalizing on components and p
 
 ### Prerequisites 
 🔨<br />
-  1. mongoDB / Compass
-  2. VS Code
-  3. npm packages: gh-pages, react, react-bootstrap, react-dom, react-scripts, web-vitals, @testing-library/jest-dom, @testing-library/react, @testing-library/user-event
+  1. VS Code
+  2. npm packages: gh-pages, react, react-bootstrap, react-dom, react-scripts, web-vitals, @testing-library/jest-dom, @testing-library/react, @testing-library/user-event
 
 ### Usage
 💻<br />
