@@ -15,32 +15,15 @@ class App extends Component {
     employeeDB: employee,
   };
 
+  // Search filter
   handleInputChange = (event) => {
     const value = event.target.value;
-    this.setState(
-      {
-        search: value,
-      },
-      () => console.log(this.state.search)
-    );
-    // console.log("EmployeeDB",this.state.employeeDB)
-  
-      let employeeRecords = this.state.employeeDB;
-      let searchResult = [];
-      let search = this.state.search
-      for (let i = 0; i < employeeRecords.length; i++) {
-        if (employeeRecords[i].name.indexOf(search) > -1) {
-          console.log(employeeRecords[i]);
-          searchResult.push(employeeRecords[i]);
-        }
-      }
-      console.log(this.state.search,searchResult)
-      if (this.state.search !== "") {
-      this.setState({ employee: searchResult });
-    } else {
-      this.setState({ employee: this.state.employeeDB });
-    }
-  };
+    this.setState({search: value});
+    const name = this.state.employeeDB.filter((employees) => {
+      return employees.name.toLowerCase().includes(value.toLowerCase());
+    });
+    this.setState({employee: name});
+ }
 
   // Sort by name function for our button
   sortByName = (sortOrder) => {
