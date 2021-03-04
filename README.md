@@ -32,8 +32,8 @@ React Employee Directory app, built using React capitalizing on components and p
 <p align="center">
     <img src="https://img.shields.io/badge/JavaScript-green" />
     <img src="https://img.shields.io/badge/react-blue" />
-    <img src="https://img.shields.io/badge/gh-pages-red" />
-    <img src="https://img.shields.io/badge/web-vitals-light" />
+    <img src="https://img.shields.io/badge/ghpages-red" />
+    <img src="https://img.shields.io/badge/webvitals-light" />
 </p>
 
 ### Prerequisites 
