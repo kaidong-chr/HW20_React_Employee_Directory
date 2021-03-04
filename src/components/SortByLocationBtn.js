@@ -2,9 +2,16 @@ import React from "react";
 
 function SortByLocationBtn(props) {
   return (
-        <th className="thead-dark">
-          <button type="button" className="btn btn-secondary" onClick={props.sortByName}>Sort By Location</button>
-        </th>
+    // Sort by location button
+    <th className="thead-dark">
+      <button
+        type="button"
+        className="btn btn-secondary"
+        onClick={props.sortByLocation}
+      >
+        Sort By Location
+      </button>
+    </th>
   );
 }
 

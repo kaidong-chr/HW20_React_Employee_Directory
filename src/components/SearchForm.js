@@ -6,10 +6,11 @@ const Search = (props) => {
       <div>
         <input
           placeholder="Search For Employee"
-          name="Search"
+          name="search"
           type="text"
+          value={props.term}
           className="form-control"
-          onChange={(event) => props.startSort(event)}
+          onChange={(event)=>{props.handleInputChange(event)}}
         />
       </div>
     </form>
