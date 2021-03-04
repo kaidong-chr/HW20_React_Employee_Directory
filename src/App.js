@@ -64,11 +64,24 @@ class App extends Component {
   };
 
   // Sort by location function for our button
-  sortByLocation = () => {
-    let sortedEmployeeLocation = this.state.employee.sort((a, b) =>
-      a.location > b.location ? 1 : -1
-    );
-    this.setState({ sortedEmployeeLocation });
+  sortByLocation = (sortOrder) => {
+    if (sortOrder === "asc") {
+      let sortedEmployeeLocation = this.state.employee.sort((a, b) =>
+        a.Location > b.Location ? 1 : -1
+      );
+      this.setState({
+        sortedEmployeeLocation: sortedEmployeeLocation,
+        sortOrder: "desc",
+      });
+    } else {
+      let sortedEmployeeLocation = this.state.employee.sort((a, b) =>
+        a.Location < b.Location ? 1 : -1
+      );
+      this.setState({
+        sortedEmployeeLocation: sortedEmployeeLocation,
+        sortOrder: "asc",
+      });
+    }
   };
 
   // Render contents of our main page

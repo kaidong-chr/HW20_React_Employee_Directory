@@ -7,7 +7,7 @@ function SortByLocationBtn(props) {
       <button
         type="button"
         className="btn btn-secondary"
-        onClick={props.sortByLocation}
+        onClick={()=>props.sortByLocation(props.order)}
       >
         Sort By Location
       </button>
